@@ -1,0 +1,11 @@
+protoc:
+  version: 3.7.1
+lint:
+  group: empty
+generate:
+  go_options:
+    import_path: github.com/jschaf/go-reflec
+  plugins:
+    - name: go
+      type: go
+      output: .
